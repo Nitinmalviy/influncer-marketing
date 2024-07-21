@@ -1,14 +1,17 @@
 import Carousel from "./ui/Carousel";
-import LatestNews from "./ui/Latest News";
-
+import Footer from "./ui/Footer";
+import LatestNews from "./ui/LatestNews";
 
 export default function LandingPage() {
     return <>
-        {/* crousel  */}
-        <div><Carousel /></div>
-        <div>
-           <LatestNews/>
+        {/* craousel start */}
+
+        <div className="">
+            <Carousel />
+            <LatestNews />
+            <Footer/>
         </div>
 
+        {/* craousel aend */}
     </>
 }
